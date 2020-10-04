@@ -9064,7 +9064,7 @@ header {
 
 .menu__link {
   color: #cccccc;
-  grid-gap: 7.5px;
+  grid-gap: 10px;
   padding: 10px 18px;
   font-weight: 500;
   display: flex;

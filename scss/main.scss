@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 @import "./icons";
 
 $base_font_size: 14px;
@@ -22,6 +22,14 @@ $header_height: 55px;
 // breakpoints
 $breakpoint_medium: 991px;
 $breakpoint_small: 767px;
+
+
+
+// font weight
+
+$font__weight__regular: 400;
+$font__weight__medium: 500;
+$font__weight__bold: 700;
 
 // common
 
@@ -63,7 +71,7 @@ a
         font-family: 'icomoon';
         speak: none;
         font-style: normal;
-        font-weight: normal;
+        font-weight: $font__weight__regular;
         font-variant: normal;
         text-transform: none;
         line-height: 1;
@@ -91,6 +99,10 @@ a
       a
       {
         color:$white_color;
+        &:hover
+        {
+          color: darken($white_color, 10%);
+        }
       }
     }
   }
@@ -145,7 +157,7 @@ a
     min-width: 80px;
     margin-right: $gutter_space;
     font-size: 1.35em;
-    font-weight: bold;
+    font-weight: $font__weight__bold;
     color: $white_color;
 
     @media(min-width:$breakpoint_small) {
@@ -312,6 +324,7 @@ header
     color: $sidemenu_link_color;
     grid-gap: $gutter_space/3;
     padding: 17px 18px;
+    font-weight: $font__weight__medium;
     display: flex;
     text-transform: uppercase;
     flex-direction: column;
@@ -324,7 +337,7 @@ header
     {
       font-size: 1em;
       flex-direction: row;
-      grid-gap: $gutter_space + 7;
+      grid-gap: $gutter_space + 5;
     }
 
     > i
@@ -334,6 +347,7 @@ header
         font-size: 1.65em;
       }
     }
+
 
     &:hover
     {
@@ -385,6 +399,8 @@ header
   flex-wrap: nowrap;
   height: 30px;
   align-items: stretch;
+  border-radius: 4px;
+  font-size: 1.2em;
 
   &__addon
   {
@@ -394,6 +410,7 @@ header
     align-items: center;
     left: 0;
     top: 0;
+    font-size: inherit;
   }
 
   .form__control

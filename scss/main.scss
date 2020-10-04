@@ -322,8 +322,8 @@ header
   &__link
   {
     color: $sidemenu_link_color;
-    grid-gap: $gutter_space/3;
-    padding: 17px 18px;
+    grid-gap: $gutter_space/2;
+    padding: 10px 18px;
     font-weight: $font__weight__medium;
     display: flex;
     text-transform: uppercase;
@@ -338,6 +338,7 @@ header
       font-size: 1em;
       flex-direction: row;
       grid-gap: $gutter_space + 5;
+      padding: 17px 18px;
     }
 
     > i

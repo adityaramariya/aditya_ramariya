@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af7ca5e9-8d13-4a4f-a909-12484df6d24c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +44,7 @@
       <workItem from="1601451196805" duration="8652000" />
       <workItem from="1601546087816" duration="34000" />
       <workItem from="1601722705479" duration="11454000" />
-      <workItem from="1601796954129" duration="6841000" />
+      <workItem from="1601796954129" duration="7264000" />
     </task>
     <servers />
   </component>
@@ -67,9 +64,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="24" width="452" height="906" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1601803774551" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601793784152">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601804292586">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601793784152" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1601804292586" />
   </component>
 </project>

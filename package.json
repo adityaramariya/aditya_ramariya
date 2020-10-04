@@ -1,0 +1,23 @@
+{
+  "name": "aditya_ramariya-trial",
+  "version": "1.0.0",
+  "description": "HTML trial task ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adityaramariya/HTML_TRIAL.git"
+  },
+  "author": "Aditya Ramraiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adityaramariya/HTML_TRIAL/issues"
+  },
+  "homepage": "https://github.com/adityaramariya/HTML_TRIAL#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
